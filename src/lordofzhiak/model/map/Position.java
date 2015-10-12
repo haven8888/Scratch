@@ -35,4 +35,21 @@ public class Position{
 	return "["+x+","+y+"]";
 	}
 
+	public void goNorth(){
+        y+=1;
+        }
+
+        public void goSouth(){
+        y-=1;
+        }
+
+        public void goWest(){
+        x-=1;
+        }
+
+        public void goEast(){
+        x+=1;
+        }
+
+
 }
