@@ -1,0 +1,5 @@
+How to compile and play:
+
+1. git clone https://github.com/haven8888/Scratch
+2. cd to Scratch/src/ and type: javac lordofzhiak/Start.java
+3. in the same directory type: java lordofzhiak.Start
