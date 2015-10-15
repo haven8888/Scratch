@@ -1,3 +1,12 @@
+/* File: Position.java
+ *	This object creates a grid for 
+ *	the player to walk on
+ *  TODO:
+ * 		-add detail to sourounding
+ *		-create walls(blocking the way of player)
+ *
+ */
+
 package lordofzhiak.model.map;
 
 public class Position{
@@ -31,10 +40,13 @@ public class Position{
 	this.y=y;
 	}
 
+	//used in event class
 	public String toString(){
-	return "["+x+","+y+"]";
+	return "[" + x + "," + y +"]";
 	}
 
+	
+	//commands to move in map
 	public void goNorth(){
         y+=1;
         }

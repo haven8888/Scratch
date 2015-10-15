@@ -8,5 +8,5 @@ public class Event{
 		System.out.println("Your current position: "+position.toString());
 	}
 
-
+	
 }
